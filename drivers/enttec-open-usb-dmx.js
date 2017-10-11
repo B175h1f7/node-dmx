@@ -12,7 +12,7 @@ function EnttecOpenUsbDMX(device_id, options) {
 	self.interval = 46
 
 	this.dev = new SerialPort(device_id, {
-		'baudrate': 250000,
+		'baudRate': 250000,
 		'databits': 8,
 		'stopbits': 2,
 		'parity': 'none'
