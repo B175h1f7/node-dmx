@@ -17,14 +17,9 @@
 				"light control"
 		],
 		"dependencies": {
-				"async": "^2.5.0",
 				"commander": "2.11.x",
 				"connect": "3.6.x",
-				"express": "4.16.x",
-				"request": "^2.83.0",
-				"serialport": "6.0.x",
-				"socket.io": "2.0.x",
-				"socket.io-serialport": "^2.0.1"
+				"serialport": "6.0.x"
 		},
 		"licenses": [
 				{
