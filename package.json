@@ -1,12 +1,12 @@
 {
-		"name":		   "dmx",
-		"version":	   "0.0.5",
-		"author":	   "Sebastian Wiedenroth <wiedi@frubar.net>",
-		"description": "DMX library and webservice",
-		"url":		   "https://github.com/wiedi/node-dmx",
-		"main":		   "dmx.js",
+		"name": "dmx",
+		"version": "0.0.6",
+		"author": "Sebastian Wiedenroth <wiedi@frubar.net>",
+		"description": "DMX library and webservice - Forked by Marcel Block <marcel-dominique.block@xailab.de>",
+		"url": "https://github.com/B175h1f7/node-dmx.git",
+		"main": "dmx.js",
 		"bin": {
-						"dmx-web":	 "./dmx-web.js"
+				"dmx-web": "./dmx-web.js"
 		},
 		"repository": {
 				"type": "git",
@@ -17,11 +17,14 @@
 				"light control"
 		],
 		"dependencies": {
+				"async": "^2.5.0",
+				"commander": "2.11.x",
+				"connect": "3.6.x",
+				"express": "4.16.x",
+				"request": "^2.83.0",
 				"serialport": "6.0.x",
-				"socket.io":  "0.9.x",
-				"connect":    "2.11.x",
-				"express":    "3.4.x",
-				"commander":  "2.0.x"
+				"socket.io": "2.0.x",
+				"socket.io-serialport": "^2.0.1"
 		},
 		"licenses": [
 				{
