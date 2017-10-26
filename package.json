@@ -1,16 +1,16 @@
 {
-		"name": "dmx",
-		"version": "0.0.6",
+		"name": "@xailabs/dmx",
+		"version": "0.0.6-beta",
 		"author": "Sebastian Wiedenroth <wiedi@frubar.net>",
-		"description": "DMX library and webservice - Forked by Marcel Block <marcel-dominique.block@xailab.de>",
-		"url": "https://github.com/B175h1f7/node-dmx.git",
+        "contributors": ["Marcel Block <marcel-dominique.block@xailab.de>"],
+		"description": "DMX library and webservice",
 		"main": "dmx.js",
 		"bin": {
 				"dmx-web": "./dmx-web.js"
 		},
 		"repository": {
 				"type": "git",
-				"url": "https://github.com/wiedi/node-dmx.git"
+				"url": "https://github.com/B175h1f7/node-dmx.git"
 		},
 		"keywords": [
 				"DMX",
