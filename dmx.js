@@ -9,8 +9,8 @@ function DMX(options) {
 	this.drivers   = {}
 	this.devices   = options.devices || require('./devices')
 
-	//this.registerDriver('null',                   require('./drivers/null'))
-	//this.registerDriver('dmx4all',                require('./drivers/dmx4all'))
+	this.registerDriver('null',                   require('./drivers/null'))
+	this.registerDriver('dmx4all',                require('./drivers/dmx4all'))
 	this.registerDriver('enttec-usb-dmx-pro',     require('./drivers/enttec-usb-dmx-pro'))
 	this.registerDriver('enttec-open-usb-dmx',    require('./drivers/enttec-open-usb-dmx'))
 	this.registerDriver('dmxking-ultra-dmx-pro',  require('./drivers/dmxking-ultra-dmx-pro'))
